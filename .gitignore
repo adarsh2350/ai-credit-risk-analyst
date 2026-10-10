@@ -1,0 +1,5 @@
+.ai_credit_risk_analyst
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
