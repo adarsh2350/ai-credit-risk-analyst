@@ -1,0 +1,204 @@
+2026-10-11 14:30:29 | INFO     | logging_config | Logging initialized; writing to /Users/adarsh/Desktop/projects/ai-credit-risk-analyst/logs/ai_credit_risk_analyst.log
+2026-10-11 14:30:29 | INFO     | __main__ | Application smoke test started
+2026-10-11 14:30:29 | INFO     | __main__ | Starting portfolio metrics demo
+2026-10-11 14:30:29 | INFO     | risk_metrics | Portfolio metrics computed: total_loans=10 total_defaults=3 default_rate=0.3000
+2026-10-11 14:30:29 | INFO     | __main__ | Portfolio metrics demo completed successfully
+2026-10-11 14:30:29 | INFO     | __main__ | Starting LLM demo
+2026-10-11 14:30:29 | WARNING  | llm_client | Rejected LLM request: GEMINI_API_KEY is missing or blank
+2026-10-11 14:30:29 | ERROR    | __main__ | LLM demo failed (configuration or validation)
+Traceback (most recent call last):
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/src/main.py", line 45, in run_llm_demo
+    answer = ask_llm(SAMPLE_LLM_QUESTION)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/src/llm_client.py", line 48, in ask_llm
+    raise ValueError("GEMINI_API_KEY must be set in .env or the environment")
+ValueError: GEMINI_API_KEY must be set in .env or the environment
+2026-10-11 14:30:29 | INFO     | __main__ | Application smoke test finished
+2026-10-11 14:38:01 | INFO     | logging_config | Logging initialized; writing to /Users/adarsh/Desktop/projects/ai-credit-risk-analyst/logs/ai_credit_risk_analyst.log
+2026-10-11 14:38:01 | INFO     | __main__ | Application smoke test started
+2026-10-11 14:38:01 | INFO     | __main__ | Starting portfolio metrics demo
+2026-10-11 14:38:01 | INFO     | risk_metrics | Portfolio metrics computed: total_loans=10 total_defaults=3 default_rate=0.3000
+2026-10-11 14:38:01 | INFO     | __main__ | Portfolio metrics demo completed successfully
+2026-10-11 14:38:01 | INFO     | __main__ | Starting LLM demo
+2026-10-11 14:38:01 | WARNING  | llm_client | Rejected LLM request: GEMINI_API_KEY is missing or blank
+2026-10-11 14:38:01 | ERROR    | __main__ | LLM demo failed (configuration or validation)
+Traceback (most recent call last):
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/src/main.py", line 45, in run_llm_demo
+    answer = ask_llm(SAMPLE_LLM_QUESTION)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/src/llm_client.py", line 48, in ask_llm
+    raise ValueError("GEMINI_API_KEY must be set in .env or the environment")
+ValueError: GEMINI_API_KEY must be set in .env or the environment
+2026-10-11 14:38:01 | INFO     | __main__ | Application smoke test finished
+2026-10-11 17:46:15 | INFO     | logging_config | Logging initialized; writing to /Users/adarsh/Desktop/projects/ai-credit-risk-analyst/logs/ai_credit_risk_analyst.log
+2026-10-11 17:46:15 | INFO     | __main__ | Application smoke test started
+2026-10-11 17:46:15 | INFO     | __main__ | Starting portfolio metrics demo
+2026-10-11 17:46:15 | INFO     | risk_metrics | Portfolio metrics computed: total_loans=10 total_defaults=3 default_rate=0.3000
+2026-10-11 17:46:15 | INFO     | __main__ | Portfolio metrics demo completed successfully
+2026-10-11 17:46:15 | INFO     | __main__ | Starting LLM demo
+2026-10-11 17:46:15 | WARNING  | llm_client | Rejected LLM request: GEMINI_API_KEY missing or blank in /Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.env
+2026-10-11 17:46:15 | ERROR    | __main__ | LLM demo failed (configuration or validation)
+Traceback (most recent call last):
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/src/main.py", line 45, in run_llm_demo
+    answer = ask_llm(SAMPLE_LLM_QUESTION)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/src/llm_client.py", line 57, in ask_llm
+    raise ValueError(
+ValueError: GEMINI_API_KEY must be set in .env or the environment (.env file is empty). Expected line: GEMINI_API_KEY=your_key (not gemini_key). File: /Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.env
+2026-10-11 17:46:15 | INFO     | __main__ | Application smoke test finished
+2026-10-11 17:47:11 | INFO     | logging_config | Logging initialized; writing to /Users/adarsh/Desktop/projects/ai-credit-risk-analyst/logs/ai_credit_risk_analyst.log
+2026-10-11 17:47:11 | INFO     | __main__ | Application smoke test started
+2026-10-11 17:47:11 | INFO     | __main__ | Starting portfolio metrics demo
+2026-10-11 17:47:11 | INFO     | risk_metrics | Portfolio metrics computed: total_loans=10 total_defaults=3 default_rate=0.3000
+2026-10-11 17:47:11 | INFO     | __main__ | Portfolio metrics demo completed successfully
+2026-10-11 17:47:11 | INFO     | __main__ | Starting LLM demo
+2026-10-11 17:47:11 | INFO     | llm_client | Sending question to Gemini model=gemini-3.8-flash (prompt length=98)
+2026-10-11 17:47:11 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-10-11 17:47:26 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+2026-10-11 17:47:26 | INFO     | llm_client | Received Gemini response (text length=3622)
+2026-10-11 17:47:26 | INFO     | __main__ | LLM demo completed successfully
+2026-10-11 17:47:26 | INFO     | __main__ | Application smoke test finished
+2026-10-11 17:50:53 | INFO     | logging_config | Logging initialized; writing to /Users/adarsh/Desktop/projects/ai-credit-risk-analyst/logs/ai_credit_risk_analyst.log
+2026-10-11 17:50:53 | INFO     | __main__ | Application smoke test started
+2026-10-11 17:50:53 | INFO     | __main__ | Starting portfolio metrics demo
+2026-10-11 17:50:53 | INFO     | risk_metrics | Portfolio metrics computed: total_loans=10 total_defaults=3 default_rate=0.3000
+2026-10-11 17:50:53 | INFO     | __main__ | Portfolio metrics demo completed successfully
+2026-10-11 17:50:53 | INFO     | __main__ | Starting LLM demo
+2026-10-11 17:50:53 | INFO     | llm_client | Sending question to Gemini model=gemini-3.8-flash (prompt length=98)
+2026-10-11 17:50:53 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-10-11 17:50:55 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-11 17:50:55 | ERROR    | __main__ | LLM demo failed (API or network)
+Traceback (most recent call last):
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/src/main.py", line 45, in run_llm_demo
+    answer = ask_llm(SAMPLE_LLM_QUESTION)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/src/llm_client.py", line 72, in ask_llm
+    response = client.models.generate_content(model=model, contents=prompt)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/models.py", line 6232, in generate_content
+    response = self._generate_content(
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/models.py", line 4668, in _generate_content
+    response = self._api_client.request(
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/_api_client.py", line 1757, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/_api_client.py", line 1544, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/_api_client.py", line 1521, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/errors.py", line 173, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/errors.py", line 204, in raise_error
+    raise ServerError(status_code, response_json, response)
+google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-11 17:50:55 | INFO     | __main__ | Application smoke test finished
+2026-10-11 17:51:54 | INFO     | logging_config | Logging initialized; writing to /Users/adarsh/Desktop/projects/ai-credit-risk-analyst/logs/ai_credit_risk_analyst.log
+2026-10-11 17:51:54 | INFO     | __main__ | Application smoke test started
+2026-10-11 17:51:54 | INFO     | __main__ | Starting portfolio metrics demo
+2026-10-11 17:51:54 | INFO     | risk_metrics | Portfolio metrics computed: total_loans=10 total_defaults=3 default_rate=0.3000
+2026-10-11 17:51:54 | INFO     | __main__ | Portfolio metrics demo completed successfully
+2026-10-11 17:51:54 | INFO     | __main__ | Starting LLM demo
+2026-10-11 17:51:54 | INFO     | llm_client | Sending question to Gemini model=gemini-3.8-flash (prompt length=98)
+2026-10-11 17:51:54 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-10-11 17:51:56 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-11 17:51:56 | ERROR    | __main__ | LLM demo failed (API or network)
+Traceback (most recent call last):
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/src/main.py", line 45, in run_llm_demo
+    answer = ask_llm(SAMPLE_LLM_QUESTION)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/src/llm_client.py", line 72, in ask_llm
+    response = client.models.generate_content(model=model, contents=prompt)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/models.py", line 6232, in generate_content
+    response = self._generate_content(
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/models.py", line 4668, in _generate_content
+    response = self._api_client.request(
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/_api_client.py", line 1757, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/_api_client.py", line 1544, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/_api_client.py", line 1521, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/errors.py", line 173, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/errors.py", line 204, in raise_error
+    raise ServerError(status_code, response_json, response)
+google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-11 17:51:56 | INFO     | __main__ | Application smoke test finished
+2026-10-11 17:52:58 | INFO     | logging_config | Logging initialized; writing to /Users/adarsh/Desktop/projects/ai-credit-risk-analyst/logs/ai_credit_risk_analyst.log
+2026-10-11 17:52:58 | INFO     | __main__ | Application smoke test started
+2026-10-11 17:52:58 | INFO     | __main__ | Starting portfolio metrics demo
+2026-10-11 17:52:58 | INFO     | risk_metrics | Portfolio metrics computed: total_loans=10 total_defaults=3 default_rate=0.3000
+2026-10-11 17:52:58 | INFO     | __main__ | Portfolio metrics demo completed successfully
+2026-10-11 17:52:58 | INFO     | __main__ | Starting LLM demo
+2026-10-11 17:52:58 | INFO     | llm_client | Sending question to Gemini model=gemini-3.8-flash (prompt length=98)
+2026-10-11 17:52:58 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-10-11 17:53:00 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-11 17:53:00 | ERROR    | __main__ | LLM demo failed (API or network)
+Traceback (most recent call last):
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/src/main.py", line 45, in run_llm_demo
+    answer = ask_llm(SAMPLE_LLM_QUESTION)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/src/llm_client.py", line 72, in ask_llm
+    response = client.models.generate_content(model=model, contents=prompt)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/models.py", line 6232, in generate_content
+    response = self._generate_content(
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/models.py", line 4668, in _generate_content
+    response = self._api_client.request(
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/_api_client.py", line 1757, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/_api_client.py", line 1544, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/_api_client.py", line 1521, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/errors.py", line 173, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/Users/adarsh/Desktop/projects/ai-credit-risk-analyst/.ai_credit_risk_analyst/lib/python3.10/site-packages/google/genai/errors.py", line 204, in raise_error
+    raise ServerError(status_code, response_json, response)
+google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-11 17:53:00 | INFO     | __main__ | Application smoke test finished
+2026-10-12 09:58:37 | INFO     | logging_config | Logging initialized; writing to /Users/adarsh/Desktop/projects/ai-credit-risk-analyst/logs/ai_credit_risk_analyst.log
+2026-10-12 09:58:37 | INFO     | __main__ | Application smoke test started
+2026-10-12 09:58:37 | INFO     | __main__ | Starting portfolio metrics demo
+2026-10-12 09:58:37 | INFO     | risk_metrics | Portfolio metrics computed: total_loans=10 total_defaults=3 default_rate=0.3000
+2026-10-12 09:58:37 | INFO     | __main__ | Portfolio metrics demo completed successfully
+2026-10-12 09:58:37 | INFO     | __main__ | Starting LLM demo
+2026-10-12 09:58:37 | INFO     | llm_client | Sending question to Gemini model=gemini-3.8-flash (prompt length=98)
+2026-10-12 09:58:37 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-10-12 09:58:52 | INFO     | httpx | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+2026-10-12 09:58:52 | INFO     | llm_client | Received Gemini response (text length=3208)
+2026-10-12 09:58:52 | INFO     | __main__ | LLM demo completed successfully
+2026-10-12 09:58:52 | INFO     | __main__ | Application smoke test finished
